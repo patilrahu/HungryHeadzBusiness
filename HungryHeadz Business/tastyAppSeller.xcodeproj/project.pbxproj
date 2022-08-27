@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		589640BD28ABBE000043E6F5 /* HungryHeadz-Businessv3.png in Resources */ = {isa = PBXBuildFile; fileRef = 589640BC28ABBE000043E6F5 /* HungryHeadz-Businessv3.png */; };
+		58A0CBF428AA2DFB00A6564D /* Seller_feedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A0CBF328AA2DFB00A6564D /* Seller_feedController.swift */; };
+		58A0CBF728AA2F1500A6564D /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A0CBF628AA2F1500A6564D /* Roboto-Medium.ttf */; };
+		58A0CBF928AA2F2000A6564D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A0CBF828AA2F2000A6564D /* Roboto-Bold.ttf */; };
+		58A0CBFB28AA2F2900A6564D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A0CBFA28AA2F2900A6564D /* Roboto-Regular.ttf */; };
+		58B569A628A3BEF0003776AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B569A528A3BEF0003776AA /* AppDelegate.swift */; };
+		58B569A828A3BEF0003776AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B569A728A3BEF0003776AA /* SceneDelegate.swift */; };
+		58B569AA28A3BEF0003776AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B569A928A3BEF0003776AA /* ViewController.swift */; };
+		58B569AD28A3BEF0003776AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B569AB28A3BEF0003776AA /* Main.storyboard */; };
+		58B569AF28A3BEF3003776AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B569AE28A3BEF3003776AA /* Assets.xcassets */; };
+		58B569B228A3BEF3003776AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B569B028A3BEF3003776AA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		589640BC28ABBE000043E6F5 /* HungryHeadz-Businessv3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HungryHeadz-Businessv3.png"; path = "../../../../Downloads/HungryHeadz-Businessv3.png"; sourceTree = "<group>"; };
+		58A0CBF328AA2DFB00A6564D /* Seller_feedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seller_feedController.swift; sourceTree = "<group>"; };
+		58A0CBF628AA2F1500A6564D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../../Downloads/Roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		58A0CBF828AA2F2000A6564D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../Downloads/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		58A0CBFA28AA2F2900A6564D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../Downloads/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		58B569A228A3BEF0003776AA /* tastyAppSeller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tastyAppSeller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B569A528A3BEF0003776AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58B569A728A3BEF0003776AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58B569A928A3BEF0003776AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58B569AC28A3BEF0003776AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58B569AE28A3BEF3003776AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58B569B128A3BEF3003776AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58B569B328A3BEF3003776AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B5699F28A3BEF0003776AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		589640B628AB5A860043E6F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CBF328AA2DFB00A6564D /* Seller_feedController.swift */,
+				58B569A928A3BEF0003776AA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		589640BB28ABBDE60043E6F5 /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				589640BC28ABBE000043E6F5 /* HungryHeadz-Businessv3.png */,
+			);
+			path = AppIcon;
+			sourceTree = "<group>";
+		};
+		58A0CBF528AA2EFB00A6564D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				58A0CBF628AA2F1500A6564D /* Roboto-Medium.ttf */,
+				58A0CBFA28AA2F2900A6564D /* Roboto-Regular.ttf */,
+				58A0CBF828AA2F2000A6564D /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		58B5699928A3BEF0003776AA = {
+			isa = PBXGroup;
+			children = (
+				58B569A428A3BEF0003776AA /* tastyAppSeller */,
+				58B569A328A3BEF0003776AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58B569A328A3BEF0003776AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B569A228A3BEF0003776AA /* tastyAppSeller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B569A428A3BEF0003776AA /* tastyAppSeller */ = {
+			isa = PBXGroup;
+			children = (
+				589640BB28ABBDE60043E6F5 /* AppIcon */,
+				589640B628AB5A860043E6F5 /* Controller */,
+				58A0CBF528AA2EFB00A6564D /* Fonts */,
+				58B569A528A3BEF0003776AA /* AppDelegate.swift */,
+				58B569A728A3BEF0003776AA /* SceneDelegate.swift */,
+				58B569AB28A3BEF0003776AA /* Main.storyboard */,
+				58B569AE28A3BEF3003776AA /* Assets.xcassets */,
+				58B569B028A3BEF3003776AA /* LaunchScreen.storyboard */,
+				58B569B328A3BEF3003776AA /* Info.plist */,
+			);
+			path = tastyAppSeller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B569A128A3BEF0003776AA /* tastyAppSeller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B569B628A3BEF3003776AA /* Build configuration list for PBXNativeTarget "tastyAppSeller" */;
+			buildPhases = (
+				58B5699E28A3BEF0003776AA /* Sources */,
+				58B5699F28A3BEF0003776AA /* Frameworks */,
+				58B569A028A3BEF0003776AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tastyAppSeller;
+			productName = tastyAppSeller;
+			productReference = 58B569A228A3BEF0003776AA /* tastyAppSeller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B5699A28A3BEF0003776AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					58B569A128A3BEF0003776AA = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 58B5699D28A3BEF0003776AA /* Build configuration list for PBXProject "tastyAppSeller" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58B5699928A3BEF0003776AA;
+			productRefGroup = 58B569A328A3BEF0003776AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B569A128A3BEF0003776AA /* tastyAppSeller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B569A028A3BEF0003776AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A0CBFB28AA2F2900A6564D /* Roboto-Regular.ttf in Resources */,
+				58A0CBF728AA2F1500A6564D /* Roboto-Medium.ttf in Resources */,
+				58B569B228A3BEF3003776AA /* LaunchScreen.storyboard in Resources */,
+				58A0CBF928AA2F2000A6564D /* Roboto-Bold.ttf in Resources */,
+				589640BD28ABBE000043E6F5 /* HungryHeadz-Businessv3.png in Resources */,
+				58B569AF28A3BEF3003776AA /* Assets.xcassets in Resources */,
+				58B569AD28A3BEF0003776AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B5699E28A3BEF0003776AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A0CBF428AA2DFB00A6564D /* Seller_feedController.swift in Sources */,
+				58B569AA28A3BEF0003776AA /* ViewController.swift in Sources */,
+				58B569A628A3BEF0003776AA /* AppDelegate.swift in Sources */,
+				58B569A828A3BEF0003776AA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58B569AB28A3BEF0003776AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B569AC28A3BEF0003776AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58B569B028A3BEF3003776AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B569B128A3BEF3003776AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B569B428A3BEF3003776AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58B569B528A3BEF3003776AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B569B728A3BEF3003776AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWFR6NNX6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tastyAppSeller/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HungryHeadz Business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.tastyAppSeller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58B569B828A3BEF3003776AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWFR6NNX6A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tastyAppSeller/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HungryHeadz Business";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.appbrewery.tastyAppSeller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B5699D28A3BEF0003776AA /* Build configuration list for PBXProject "tastyAppSeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B569B428A3BEF3003776AA /* Debug */,
+				58B569B528A3BEF3003776AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B569B628A3BEF3003776AA /* Build configuration list for PBXNativeTarget "tastyAppSeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B569B728A3BEF3003776AA /* Debug */,
+				58B569B828A3BEF3003776AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B5699A28A3BEF0003776AA /* Project object */;
+}
